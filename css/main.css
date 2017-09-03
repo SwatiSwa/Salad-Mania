@@ -1,0 +1,83 @@
+body {
+    background-image: url("../resources/salads.jpg");
+}
+
+.heading {
+    text-align: center;
+    font-family: cursive;
+    text-decoration: dashed;
+    text-decoration-line: underline;
+    color:  #d235d5;;
+}
+
+.center_pos {
+    text-align: center;
+    margin: auto;
+}
+
+.center_pos_comp {
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.navbar-default {
+    background-color: #74f5eb;
+    border-color: #0f645a;
+    border-width: thin;
+    opacity: 0.7;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+.navbar-default .navbar-brand {
+    color: #3737c9;
+    font-size: larger;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    font-size: xx-large;
+    color: lawngreen;
+    padding: 0 5 0 0;
+    font-family: fantasy;
+}
+
+/*Social Icons */
+
+.social-icon {
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #ccc;
+}
+.fa-facebook {
+    background: none repeat scroll 0 0 #3b5998;
+}
+.fa-twitter {
+    background: none repeat scroll 0 0 #4099ff;
+}
+.fa-google-plus {
+    background: none repeat scroll 0 0 #d34836;
+}
+
+.fa-cutlery {
+    color: #6cba2d;
+}
+
+.icon-color {
+    color : blue;
+}
+
+.avatar {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1;
+    vertical-align: middle;
+    border-radius: 3px;
+}

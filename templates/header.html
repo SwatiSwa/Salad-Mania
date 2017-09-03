@@ -1,0 +1,50 @@
+<div class="container top_container ng-scope">
+    <div class="row">
+    <a class="navbar-brand" href="#"><i class="fa fa-cutlery fa-1x" aria-hidden="true"></i>  Salad Mania</a>
+    <div class="pull-right social">
+        <span ng-click="onClickFb()"><i class="fa fa-facebook fa-2x social-icon"></i></span>
+        <span ng-click="onClickGoogle()"><i class="fa fa-google-plus fa-2x social-icon"></i></span>
+        <i class="fa fa-twitter fa-2x social-icon"></i>
+    </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-inverse" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Healthy Salads</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"></a></li>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="avatar" src={{userProfilePic}} alt='' height="20" width="20">  {{user}}<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><i class="fa fa-user icon-color" aria-hidden="true"></i>  Profile</a></li>
+                    <li><a href="#"><i class="fa fa-shopping-cart icon-color" aria-hidden="true"></i>  Orders</a></li>
+                    <li><a href="#"><i class="fa fa-credit-card icon-color" aria-hidden="true"></i>  Payments</a></li>
+                    <li><a href="#"><i class="fa fa-cog icon-color" aria-hidden="true"></i> Settings</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
