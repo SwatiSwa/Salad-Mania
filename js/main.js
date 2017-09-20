@@ -1,6 +1,9 @@
 var app=angular.module("app",['ngRoute','ui.router']);
 
 app.controller('appCtrlr',function($scope){
+  /*
+    Adding scope variables and methods
+  */ 
     $scope.user = "User";
     $scope.userProfilePic = 'resources/user.png';
 
